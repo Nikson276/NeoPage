@@ -1,0 +1,130 @@
+{
+    "random text":
+        {
+            "1":"OneOneOne..",
+            "2":"TwoTwoTwo..",
+            "3":"ThreeThreeThree..",
+            "4":"Four..",
+            "5":"Five..",
+            "6":"Six.."
+        },
+
+    "special signs":
+        {
+            "a":"%_///",
+            "b":"__+$(){_....}",
+            "c":"cos(x+8)-99$;",
+            "d":"abbr^*"
+        },
+
+
+    "console_commands": [
+      "rm -rf /",
+      "ls -la",
+      "cat /var/log/syslog",
+      "ping -c 5 google.com",
+      "ssh username@remotehost",
+      "sudo apt-get update",
+      "sudo apt-get upgrade",
+      "service nginx restart",
+      "systemctl start mysql",
+      "systemctl stop apache2",
+      "useradd newuser",
+      "usermod -aG sudo newuser",
+      "chmod 777 /var/www/html",
+      "find /home/user -type f -name \"*.txt\" -exec grep \"password\" {} \\;",
+      "tar -czvf backup.tar.gz /var/www/html"
+    ],
+
+    "database_queries": [
+      "SELECT * FROM users WHERE username='admin' AND password='password123';",
+      "UPDATE products SET price=199.99 WHERE id=1234;",
+      "DELETE FROM orders WHERE order_id=5678;",
+      "INSERT INTO customers (name, email, phone) VALUES ('John Doe', 'johndoe@email.com', '555-1234');",
+      "ALTER TABLE users ADD COLUMN last_login DATETIME;",
+      "CREATE TABLE products (id INT PRIMARY KEY, name VARCHAR(50), price DECIMAL(10,2));",
+      "GRANT ALL PRIVILEGES ON database.* TO 'user'@'localhost' IDENTIFIED BY 'password';",
+      "DROP TABLE IF EXISTS products;",
+      "SHOW DATABASES;",
+      "USE database_name;",
+      "service nginx restart",
+      "systemctl start mysql",
+      "systemctl stop apache2",
+      "useradd newuser",
+      "usermod -aG sudo newuser",
+      "chmod 777 /var/www/html",
+      "find /home/user -type f -name \"*.txt\" -exec grep \"password\" {} \\;",
+      "tar -czvf backup.tar.gz /var/www/html"
+    ],
+
+    "logs" : [ {
+      "timestamp": "2022-04-08T08:32:17",
+      "type": "WARNING",
+      "pid": 1234,
+      "message": "Disk space is running low: only 15% free space remaining"
+    },
+    {
+      "timestamp": "2022-04-07T16:12:48",
+      "type": "WARNING",
+      "pid": 5678,
+      "message": "System load is too high: 5.67"
+    },
+    {
+      "timestamp": "2022-04-07T10:01:22",
+      "type": "WARNING",
+      "pid": 9012,
+      "message": "CPU temperature is above threshold: 78°C"
+    },
+    {
+      "timestamp": "2022-04-06T22:15:10",
+      "type": "WARNING",
+      "pid": 3456,
+      "message": "Network traffic has exceeded expected levels: 1.5 GB/s"
+    },
+    {
+      "timestamp": "2022-04-06T15:45:59",
+      "type": "WARNING",
+      "pid": 7890,
+      "message": "Memory usage is high: 85%"
+    }
+  ],
+
+  "logs2" : [
+    {
+      "timestamp": "2023-04-08T12:18:57",
+      "type": "INFO",
+      "pid": 1337,
+      "message": "Matrix online"
+    },
+    {
+      "timestamp": "2023-04-08T12:19:03",
+      "type": "INFO",
+      "pid": 1337,
+      "message": "Tracing anomaly in Node 3784D-9284B"
+    },
+    {
+      "timestamp": "2023-04-08T12:19:05",
+      "type": "WARNING",
+      "pid": 1337,
+      "message": "Unauthorized access detected from IP address 127.0.0.1"
+    },
+    {
+      "timestamp": "2023-04-08T12:19:07",
+      "type": "INFO",
+      "pid": 1337,
+      "message": "Deploying agents to intercept"
+    },
+    {
+      "timestamp": "2023-04-08T12:19:10",
+      "type": "INFO",
+      "pid": 1337,
+      "message": "Agents deployed successfully"
+    },
+    {
+      "timestamp": "2023-04-08T12:19:13",
+      "type": "INFO",
+      "pid": 1337,
+      "message": "Node 3784D-9284B compromised"
+    }
+  ]
+}
