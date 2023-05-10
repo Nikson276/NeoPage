@@ -115,7 +115,7 @@ function resize_canvas(){
 
 function onKeyDown(event) {
     console.log("the 'ENTER'...Key down pressed");
-    document.location='/web/index.html'
+    document.location='./index.html'
 }
 
 // Catch all inputs from keyboard
