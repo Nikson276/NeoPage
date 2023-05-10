@@ -115,7 +115,7 @@ function resize_canvas(){
 
 function onKeyDown(event) {
     console.log("the 'ENTER'...Key down pressed");
-    document.location='http://localhost:8080/hackspace.html'
+    document.location='/web/index.html'
 }
 
 // Catch all inputs from keyboard

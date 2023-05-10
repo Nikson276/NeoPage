@@ -20,12 +20,12 @@ function typeWriter(textArray, currentIndex, currentText, elementId) {
     
     // check when message ends
     if (currentIndex >= textArray.length) {
-        console.log("Вывели всю фразу, выход..", currentIndex);
+        console.log("Вывели всю фразу, выход..", textArray);
         // Ожидание после фразы
         setTimeout(function() {
             console.log("Вызываем следующий текст")
             ChoseTxt(textArray); // вызываем функцию со след текстом
-          }, 8000); 
+          }, 8000); // 8sec
           return true;
     }
     
@@ -47,21 +47,37 @@ function ShowMessage(txt) {
 function ChoseTxt(textArray) {
     //берем первую букву текста, чтобы выбрать следующий
     var startLetter = textArray[0];
+    console.log("Проверка startletter = ", startLetter)
 
     switch (startLetter) {
         case 'W': //wake up
         ShowMessage(txtMatrix);
+        return true;
 
-        case 'M': // Matrix
+        case 'T': //The matrix
         //show the hint
         console.log("Waiting the Key press ctrl + X..");
         ctrl_ok = false;
+    
+        console.log("ждем ctrl+x и подсказываем ")
+        setTimeout(function() {
+            if (ctrl_ok == false){
+                document.getElementById("ctrl_X").style.display = "inline-block";
+            }
+        }, 15000); //wait 15 sec       
         return true;
 
         case 'F': //Follow
         //refresh flags
         console.log("Мы дошли до конца, ждем Escape");
         escp_ok = false;
+        
+        console.log("ждем escape и подсказываем ")
+        setTimeout(function() {
+            if (escp_ok == false){
+            document.getElementById("Escape").style.display = "inline-block";
+            }
+        }, 15000); //wait 15 sec      
         return true;
     }
 }
@@ -90,6 +106,9 @@ document.addEventListener("keydown", function(event) {
         ) {
             // выполняем функцию вывода Rabbit
             ctrl_ok = true;
+            console.log("ctrl_ok is:", ctrl_ok)
+
+            document.getElementById("ctrl_X").style.display = "none";
             ShowMessage(txtRabbit);
 
         } else if ( 
@@ -98,12 +117,15 @@ document.addEventListener("keydown", function(event) {
         ) {
             // выполняем функцию вывода Knock
             escp_ok = true;
+            console.log("escp_ok is:", escp_ok)
+
+            document.getElementById("Escape").style.display = "none";
             ShowMessage(txtKnock);
             //после 30 секунд покажем Морфиуса
             setTimeout(function(){
                 //show Morpheus
                 document.getElementById("Morpheus").style.display = "inline-block";
-            }, 5000)          
+            }, 5000)    // 5sec      
         }
 
   });
