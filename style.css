@@ -138,8 +138,8 @@
 
 #notifications {
   position: fixed;
-  top: 70%;
-  left: 5%;
+  top: 750px;
+  left: 10%;
   width: auto;
   height: auto;
   padding: 20px;
@@ -147,15 +147,30 @@
 }
 
 #ctrl_X {
-  display: inline-block;
   width: 250px;
   height: 200px;
   display: none;
 }
 
 #Escape {
-  display: inline-block;
   width: 70px;
   height: 70px;
   display: none;
 }
+
+#notifications #ctrl_X:hover {
+  opacity: 0.3;
+}
+#notifications #Escape:hover {
+  opacity: 0.3;
+}
+
+/* .temp-container #play {
+  position: absolute;
+  top: 950px;
+  left: 300px;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+
+} */

@@ -9,7 +9,15 @@
     <title>Matrix Rain</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
 </head>
-<body onload="matrix()" onresize="resize_canvas()">
-    <canvas id="canvas"></canvas>
+<body class="root" onload="matrix()" onresize="resize_canvas()">
+    <div class="container">
+        <canvas id="canvas" bd=0, highlightthickness=0>
+        </canvas>
+        <div class="footer">
+            <div id="home-button">
+                <img onclick="home()" id="home_btn" src="../images/home_button.svg">  
+            </div>
+        </div>
+    </div>
 </body>
 </html>

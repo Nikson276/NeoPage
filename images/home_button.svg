@@ -1,0 +1,40 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <title>Thin Gray Enter Button</title>
+ <defs>
+  <clipPath id="clipPath3828">
+   <rect fill=" rgb(255, 102, 0)" id="rect3830" y="357.69519" x="-413.25079" ry="18.904718" height="138.17282" width="395.50385"/>
+  </clipPath>
+  <clipPath id="clipPath3824">
+   <rect fill=" rgb(255, 102, 0)" id="rect3826" y="357.69519" x="-413.25079" ry="18.904718" height="138.17282" width="395.50385"/>
+  </clipPath>
+  <clipPath id="clipPath8607">
+   <rect fill=" rgb(255, 102, 0)" id="rect8609" y="357.69519" x="-413.25079" ry="18.904718" height="138.17282" width="395.50385"/>
+  </clipPath>
+  <clipPath id="clipPath8611">
+   <rect fill=" rgb(255, 102, 0)" id="rect8613" y="357.69519" x="-413.25079" ry="18.904718" height="138.17282" width="395.50385"/>
+  </clipPath>
+  <clipPath id="clipPath8713">
+   <rect fill=" rgb(255, 102, 0)" id="rect8715" y="357.69519" x="-413.25079" ry="18.904718" height="138.17282" width="395.50385"/>
+  </clipPath>
+  <clipPath id="clipPath8717">
+   <rect fill=" rgb(255, 102, 0)" id="rect8719" y="357.69519" x="-413.25079" ry="18.904718" height="138.17282" width="395.50385"/>
+  </clipPath>
+  <filter color-interpolation-filters="sRGB" height="1.415971" y="-0.207985" width="1.160887" x="-0.080444" id="filter4311">
+   <feGaussianBlur id="feGaussianBlur4313" stdDeviation="13.416198"/>
+  </filter>
+  <clipPath id="clipPath4332" clipPathUnits="userSpaceOnUse">
+   <rect opacity="0.55" id="rect4334" y="555.21869" x="-533.35815" ry="12.566516" height="154.8131" width="400.26682"/>
+  </clipPath>
+  <filter color-interpolation-filters="sRGB" id="filter4393">
+   <feGaussianBlur id="feGaussianBlur4395" stdDeviation="7.410068"/>
+  </filter>
+ </defs>
+ <metadata id="metadata4">image/svg+xml</metadata>
+ <g>
+  <title>Layer 1</title>
+  <rect opacity="0.716475" fill="none" stroke="#000000" stroke-width="44.252201" stroke-miterlimit="4" filter="url(#filter4311)" transform="matrix(1.38943,0,0,0.823165,763.156,-440.491) " clip-path="url(#clipPath4332)" width="400.26682" height="154.8131" ry="12.566516" x="-68.917267" y="639.058504" id="rect4371"/>
+  <rect opacity="0.55" fill="#000000" stroke="#000000" stroke-width="1.16637" filter="url(#filter4393)" width="362.015834" height="142.789506" ry="19.220732" x="19.367176" y="36.373787" id="rect4391"/>
+  <rect opacity="0.55" fill="#2d2d2d" stroke="#000000" stroke-width="1.166372" id="rect4373" y="49.123778" x="22.120102" ry="19.220732" height="117.289519" width="356.515613"/>
+  <text fill="#ffffff" stroke="#000000" stroke-width="0" x="268.847462" y="167.166124" id="svg_2" font-size="24" font-family="Trebuchet MS" text-anchor="middle" xml:space="preserve" transform="matrix(2.62236, 0, 0, 2.90091, -504.092, -352.026)">home</text>
+ </g>
+</svg>

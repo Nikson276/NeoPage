@@ -115,7 +115,7 @@ function resize_canvas(){
 
 function onKeyDown(event) {
     console.log("the 'ENTER'...Key down pressed");
-    document.location='./index.html'
+    document.location='../index.html'
 }
 
 // Catch all inputs from keyboard
@@ -126,3 +126,7 @@ document.addEventListener("keydown", function(event) {
         onKeyDown();
     }
   });
+
+function home(){
+    document.location='../index.html';
+}

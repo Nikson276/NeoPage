@@ -22,7 +22,11 @@
 
     <div class="container-fluid">
         <div id="intro-box">
-            <iframe width="900" height="510" src="https://www.youtube.com/embed/iJiAMx6qNUI?controls=0&amp;clip=UgkxBa45lzV8ufQjG1Hpawtkzb_O7uQP1tf-&amp;clipt=EKKgARjEmgQ" title="Intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe id="player" type="text/html" width="900" height="510" 
+                src="https://www.youtube.com/embed/iJiAMx6qNUI?&rel=0&amp;clip=UgkxBa45lzV8ufQjG1Hpawtkzb_O7uQP1tf-&amp;clipt=EKKgARjEmgQ" 
+                title="Neo" frameborder="0">
+            </iframe>
+            <!--allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
             <div id="intro-footer">
                 <div id="intro-text">
                     Watch the above scene from Matrix, then hold on to your butts and press continue to launch the recreation.
@@ -40,9 +44,17 @@
         </div>
         
         <div id="notifications">
-            <img id="ctrl_X" src="./images/ctrl-x.svg">
-            <img id="Escape" src="./images/esc-keyboard-button.svg">
+            <a onclick="simulateKeyPress('x')">
+                <img id="ctrl_X" src="./images/ctrl-x.svg">
+            </a>
+            <a onclick="simulateKeyPress('Escape')">
+                <img id="Escape" src="./images/esc-keyboard-button.svg">
+            </a>
+            
         </div>
+        <!-- <div class="temp-container">
+            <button  id="play" style="background-color:#f14e4e">PLAY</button>
+        </div> -->
     </div>
 
     <!-- <script type="text/javascript" src="../eel.js"></script> -->
