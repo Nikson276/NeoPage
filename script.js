@@ -11,11 +11,11 @@ var ctrl_ok = true; //repeat ctrl + x cycle control
 
 document.getElementById("btn_continue").onclick = function () {
     document.getElementById("intro-box").style.display = "none";
-    document.getElementById("player").src = "https://www.youtube.com/embed/iJiAMx6qNUI?&rel=0&mute=1&amp;clip=UgkxBa45lzV8ufQjG1Hpawtkzb_O7uQP1tf-&amp;clipt=EKKgARjEmgQ";
+    document.getElementById("player").src = "https://www.youtube.com/embed/;
     console.log("Typing Hello");
     ShowMessage(txtHello); 
 }
-
+// iJiAMx6qNUI?&rel=0&mute=1&amp;clip=UgkxBa45lzV8ufQjG1Hpawtkzb_O7uQP1tf-&amp;clipt=EKKgARjEmgQ";
 // Type writer effect _______________________________________
 function typeWriter(textArray, currentIndex, currentText, elementId) {  
     
