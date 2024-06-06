@@ -1,6 +1,27 @@
-https://nikson276.github.io/Nikson276.github.io-NeoPage/
-Hello
-It is a sturdy pet project to learn more about HTML, CSS, JS works. 
-So don't judge me harshly. 
+# Neo Matrix fun page
 
-This is a fun page with Matrix theme and some other featues. 
+## О проекте 
+Это веб страница с небольшим интерактивным экраном, сделанным по мотивам сцены из фильма The Matrix, где НЕО спит за рабочим столом.
+Вначале можно просмотреть ролик на Youtube с этой сценой. Для пропуска или продолжения нажать `CONTINUE` под видео.
+После чего пройти тоже самое на веб странице.
+NB Если запомнить какие кнопки нажимает НЕО в процессе видео, можно повторить это на экране аналогично ролику.
+Если же не запомнить, через некоторое время на экране появится подсказка.
+В конце зрителя будет ждать Морфиус с двумя пилюлями. 
+`Красная` обнулит результат и вернет нас в начало к просмотру ролика, `Синяя` оставит нас в "Матрице" и появится эффект цифрового дождя, которым знаменит этот фильм.
+
+
+## API
+[Redoc](docs\redoc.html)
+
+## Технологии
+* Frontend — HTML, CSS, JS
+* Infrastructure - GIThub pages
+
+## Хост
+https://nikson276.github.io/Nikson276.github.io-NeoPage/
+
+
+## Об авторе
+[Никита Михайлов](https://github.com/Nikson276)
+Back-end developer
+
